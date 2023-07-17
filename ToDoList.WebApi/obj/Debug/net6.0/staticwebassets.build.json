@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DYy6aaFL7pROXgv42Tvfd7HU9O05gRLQ1F9LqwHz/0A=",
+  "Hash": "FbegU+/2fNBago6kqZXMw2Izrxi/3Gzfhq7PPNhCuRE=",
   "Source": "ToDoList.WebApi",
   "BasePath": "_content/ToDoList.WebApi",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "D:\\SoftServeTrainee\\ToDo\\ToDoList.WebApi\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ToDoList.WebApi.styles.css",
-      "SourceId": "ToDoList.WebApi",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\SoftServeTrainee\\ToDo\\ToDoList.WebApi\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/ToDoList.WebApi",
-      "RelativePath": "ToDoList.WebApi.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\SoftServeTrainee\\ToDo\\ToDoList.WebApi\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ToDoList.WebApi.styles.css"
-    },
-    {
-      "Identity": "D:\\SoftServeTrainee\\ToDo\\ToDoList.WebApi\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ToDoList.WebApi.bundle.scp.css",
-      "SourceId": "ToDoList.WebApi",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\SoftServeTrainee\\ToDo\\ToDoList.WebApi\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/ToDoList.WebApi",
-      "RelativePath": "ToDoList.WebApi.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\SoftServeTrainee\\ToDo\\ToDoList.WebApi\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ToDoList.WebApi.bundle.scp.css"
-    },
     {
       "Identity": "D:\\SoftServeTrainee\\ToDo\\ToDoList.WebApi\\wwwroot\\css\\site.css",
       "SourceId": "ToDoList.WebApi",

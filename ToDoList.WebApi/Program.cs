@@ -5,6 +5,9 @@ using ToDo.BLL.Services.ToDoTask;
 using ToDo.Context;
 using ToDo.Repositories.TaskColorRepositories;
 using ToDo.Repositories.ToDoTaskRepositories;
+using Serilog;
+
+
 
 
 
@@ -42,6 +45,13 @@ builder.Services.AddCors(x =>
         s.AllowAnyHeader();
     });
 });
+
+var log = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .CreateLogger();
+
+Log.Logger = log;
+
 
 var app = builder.Build();
 

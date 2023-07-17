@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Serilog;
 using ToDo.BLL.DTO.TaskColor;
-using ToDo.BLL.DTO.ToDoTask;
 using ToDo.BLL.Services.TaskColor;
-using ToDo.BLL.Services.ToDoTask;
 
 namespace ToDoList.WebApi.Controllers
 {
@@ -23,12 +22,15 @@ namespace ToDoList.WebApi.Controllers
             string exText;
             try
             {
+                Log.Information("The color start  getting");
                 var tasks = taskColorService.GetAllColors();
+                Log.Information("The color was getted");
                 return Ok(tasks);
             }
             catch (Exception ex)
             {
                 exText = ex.Message;
+                Log.Error(ex.Message);
             }
             return BadRequest(exText);
 
